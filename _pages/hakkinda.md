@@ -4,6 +4,12 @@ author: Mustafa Yucel
 layout: post
 ---
 
+[<nilgun  belgeler·gen·tr>](http://www.belgeler.gen.tr/nilgun/) tarafından Türkçe'ye çevirilmiş [GNU Bash Başvuru Kılavuzu](https://github.com/yucellmustafa/bash/releases/download/v1.0.0/GNU.Bash.Basvuru.Kilavuzu.pdf)'nun Gitbook'a dönüştürülme projesidir.
+
+Kaynak Kod : https://github.com/yucellmustafa/bash
+
+---
+
 Bu kitapta Bash kabuğunda bulunan özellikler kısaca açıklanmıştır (sürüm 3.2, 28 Eylül 2006).
 
 Bash diğer kabukların özelliklerini içermekten başka onlarda bulunmayan pek çok özellik içerir. Bash’in
