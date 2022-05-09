@@ -1,0 +1,31 @@
+---
+title: Giriş
+author: Mustafa Yucel
+category: giris 
+layout: post
+
+---
+
+# 1. Bash Nedir?
+
+Bash GNU işletim sistemi için bir kabuk ya da başka bir deyişle komut dili yorumlayıcısıdır. `Bourne–Again SHell` sözcüklerinde türetilmiş bir kısaltmadır. Bell Araştırma Laboratuarının Unix’inin yedinci sürümündeki, şu anki Unix kabuğu `sh`’ın atasının yazarı Stephen Bourne’a atfen bu isim verilmiştir. 
+
+Bash, `sh`’ın hemen hemen tüm özelliklerini ve Korn kabuğu olan `ksh` ile C kabuğu olarak bilinen `csh`’ın kullanışlı özelliklerini bir araya getirir. IEEE POSIX belirtiminin IEEE POSIX Kabuk ve Araçları bölümüne (IEEE Standardı 1003.1) uygun bir ürün olması amaçlanmıştır. `sh`’ın hem etkileşimli hem de programlama için kullanımını işlevsel olarak arttıran geliştirmeler içerir. 
+
+GNU işletim sistemi, `csh`’ın bir sürümü de dahil olmak üzere başka kabuklarla da teçhiz edilmişse de Bash öntanımlı kabuktur. Diğer GNU yazılımları gibi Bash’de birçok işletim sistemine uyarlanabilir – MS–DOS, OS/2 ve Windows platformları için bağımsız olarak desteklenen sürümleri vardır.
+
+# 2. Kabuk Nedir
+
+Temelinde, bir kabuk, komutları çalıştırmaya yarayan basit bir makro işlemcisidir. Burada makro işlemcisi terimi, metinlerin ve sembollerin daha geniş ifadeler oluşturmak üzere genişletilmesi işlevini yerine getiren anlamındadır.
+
+Bir Unix kabuğu, hem bir komut yorumlayıcısı hem de bir programlama dilidir. Bir komut yorumlayıcı olarak, GNU araçlarından zengin bir demeti barındıran bir arayüzdür. Programlama dili özellikleri ise bu araçları bir arada kullanabilmeyi mümkün kılar. Komutları içeren dosyalar oluşturulabilir ve bu dosyaların kendileri birer komut haline gelebilir. Bu yeni komutlar `/bin` dizinindeki sistem komutları gibi kullanıcılara ve gruplara ortak kullandıkları işlemleri otomatikleştiren özelleştirilebilir ortamlar sağlayabilir.
+
+Kabuklar etkileşimli ya da etkileşimsiz kullanılabilirler. Etkileşimli kipte, girdi klavyeden kabul edilirken, etkileşimsiz kipte bir dosyadan okunur.
+
+Bir kabuk, GNU komutlarını hem eşzamanlı hem de eşzamansız çalıştırabilir. Kabuk, başka bir girdi kabul etmeden önce eşzamanlı komutların işlemlerini bitirmesini bekleyebileceği gibi, eşzamansız komutlara paralel olarak kabuğun ek komutları okumasını ve çalıştırmasını sağlayabilir. Yönlendirme yapıları ile bu komutların giriş ve çıkışlarının kolayca denetlenmesini mümkün kılar. Üstelik, komutların çalıştırıldığı ortam üzerinde de denetimi sağlar.
+
+Kabuklar ayrıca ayrı araçlar üzerinden sağlanması sakıncalı olan ya da imkansız olan işlevselliği sağlamak üzere yerleşik komutların (yerleşikler – builtins) küçük bir demetini barındırır. Örneğin, `cd` (sayfa: 38), `break` (sayfa: 38), `continue` (sayfa: 39) ve `exec` (sayfa: 39)) komutları doğrudan kabuğun kendisini etkilediğinden kabuk dışında gerçeklenemezler. `history` (sayfa: 112), `getopts` (sayfa: 39), `kill` (sayfa: 85) veya `pwd` (sayfa: 40) yerleşikleri ise, diğerlerine karşın ayrı araçlar olarak gerçeklenebilirdi ama yerleşik komutlar olarak kullanılması daha faydalıdır. Tüm kabuk yerleşikleri kılavuzun ileri bölümlerinde anlatılmıştır.
+
+Komutlar icra edilirken kabuğun esas gücü (ve karmaşıklığı) kabuğun gömülü programlama dilinden gelir. Diğer yüksek seviyeli programlama dilleri gibi kabuk da değişkenler, akış denetim yapıları, işlevler içerir ve ayrımlama yapabilir
+
+Kabuğun özellikleri programlama dilini güçlendirmekten ziyade özellikle etkileşimli kullanımı kuvvetlendirmeyi öne çıkarır. Bu etkileşim özellikleri iş denetimi, komut satırı düzenlemesi, komut geçmişi ve takma adlardır. Bu özelliklerin herbiri kılavuzun ileri bölümlerinde açıklanmıştır.
